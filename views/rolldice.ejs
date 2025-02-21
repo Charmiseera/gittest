@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Dice gave the value:</h1>
+  
+  <h3><%= num %></h3>
+  <p><% if(num == 3) {%>
+    <h2>NICE BRO! WELL PLAYED.</h2>
+    <% } %>
+  </p>
+  <p>
+    <% for(var i=0;i<=num;i++){ %>
+      <h3><%= i %></h3>
+      
+    <% } %>
+  </p>
+</body>
+</html>
